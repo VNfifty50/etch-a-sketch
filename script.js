@@ -5,11 +5,11 @@ let container = document.querySelector(".container");
 
 
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 16; i++) {
     let line = document.createElement("div");
     line.classList.add("lines");
     
-    for (let j = 0 ; j < 6; j++) {
+    for (let j = 0 ; j < 16; j++) {
         let column = document.createElement("div");
         column.textContent = `${i}${j}`;
         column.classList.add("grid");
