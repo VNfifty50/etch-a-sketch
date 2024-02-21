@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lines {
+    display: flex;
+    justify-content: stretch;
+}
+
+.grid {
+    border-width: 2;
+    border-color: blue;
+    padding: 6px;
+}
