@@ -6,11 +6,15 @@
 
 .lines {
     display: flex;
-    justify-content: stretch;
+    justify-content: space-between;
 }
 
 .grid {
-    border-width: 2;
+    border-style: solid;
+    border-width: 2px;
     border-color: blue;
+    text-align: center;
     padding: 6px;
+    width: 102px;
+    height:102px;
 }
